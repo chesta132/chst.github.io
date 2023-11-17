@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: arial;
+}
+
+*::selection {
+    background-color: rgba(147, 147, 147, 0.436);
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid red;
+}
+
+.logo {
+    color: white;
+    font-family: 34px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-left: 100px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.cyz {
+    width: 70px; 
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+#cyz {
+    color: #ff6f00;
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 34px;
+    right: 30px;
+}
+
+.image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 23px;
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.content h2 {
+    color: rgb(234, 234, 234);
+    letter-spacing: 2px;
+    font-size: 20px
+}
+
+.content h1 {
+    color: rgb(234, 234, 234);
+    font-size: 45px;
+    margin: 20px 0 20px 0;
+}
+
+.content a {
+    color: rgb(234, 234, 234);
+    background: red;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.content a:hover {
+    background: none;
+    border: 2px solid red;
+    transition: 0.5s;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+
+.about-image {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.about-me {
+    width: 1030px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.about-text {
+    width: 550px;
+    color: white;
+}
+
+.about-text p {
+    line-height: 24px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20ox;
+    border-bottom: 1px solid red;
+}
+
+.about-text h5 {
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.about-text p i {
+    font-size: 50px;
+    margin: 10px 10px;
+}
+
+.button-contact {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.button-contact:hover {
+    border: 2px solid red;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.contact-me {
+    width: 100%;
+    background-color: #101019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-box {
+    color: white;
+    display: flex;
+}
+
+.contact-box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.contact-email {
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.contact h4 {
+    color: red;
+    padding-bottom: 10px;
+}
+
+.contact-email h4 {
+    color: red;
+    padding-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact i {
+    font-size: 40px;
+    color: white;
+}
+
+iframe {
+    margin: 50px auto auto 345px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    margin-top: 100px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+}
+
+footer p:nth-child(3) {
+    color: red;
+    font-size: 17px;
+    text-align: center;
+    line-height: 90px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
